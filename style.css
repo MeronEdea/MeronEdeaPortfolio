@@ -465,6 +465,28 @@ footer .text span a:hover {
   display: none;
 }
 
+.playstore-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    background-color: #3ddc84;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  .playstore-btn i {
+    margin-right: 6px;
+  }
+
+  .playstore-btn:hover {
+    background-color: #2ca866;
+    transform: translateY(-2px);
+  }
+
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content {
